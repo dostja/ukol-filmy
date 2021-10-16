@@ -153,3 +153,23 @@ Tvým cílem je vytvořit stránku, která bude zobrazovat přehled filmů, kter
 
 13. Nezapomeň udělat `git commit` a potom `push` do GitHub repozitáře. Odkaz na repozitář odevzdej jako řešení úkolu.
 
+
+
+const MovieList = ({ movies }) => {
+  return (
+    <ul>
+      {movies.map((polozka) => (
+        <li key={polozka.id}>
+          {polozka.id} ({polozka.title})
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+
+      {props.actors.map((a) => (
+        <Actor name={a.name} as={a.as} />
+      ))}
+
+	

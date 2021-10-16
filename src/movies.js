@@ -2,7 +2,7 @@ export const movies = [
 	{
 		id: 1,
 		title: 'Pulp Fiction',
-		poster: 'pulp-fiction.jpg',
+		poster: '/assets/pulp-fiction.jpg',
 		year: 1994,
 		rating: 8.9,
 		director: 'Quentin Tarantino',
@@ -29,7 +29,7 @@ export const movies = [
 	{
 		id: 2,
 		title: '1917',
-		poster: '1917.jpg',
+		poster: '/assets/1917.jpg',
 		year: 2019,
 		rating: 8.3,
 		director: 'Sam Mendes',
@@ -56,7 +56,7 @@ export const movies = [
 	{
 		id: 3,
 		title: 'La La Land',
-		poster: 'la-la-land.jpg',
+		poster: '/assets/la-la-land.jpg',
 		year: 2016,
 		rating: 8.0,
 		director: 'Damien Chazelle',
@@ -83,7 +83,7 @@ export const movies = [
 	{
 		id: 4,
 		title: 'Inception',
-		poster: 'inception.jpg',
+		poster: '/assets/inception.jpg',
 		year: 2010,
 		rating: 8.8,
 		director: 'Christopher Nolan',
@@ -110,7 +110,7 @@ export const movies = [
 	{
 		id: 5,
 		title: 'Guardians of the Galaxy',
-		poster: 'guardians-of-the-galaxy.jpg',
+		poster: '/assets/guardians-of-the-galaxy.jpg',
 		year: 2014,
 		rating: 8.0,
 		director: 'James Gunn',
@@ -141,7 +141,7 @@ export const movies = [
 	{
 		id: 6,
 		title: 'The Lion King',
-		poster: 'lion-king.jpg',
+		poster: '/assets/lion-king.jpg',
 		year: 1994,
 		rating: 8.5,
 		director: 'Roger Allers, Rob Minkoff',
@@ -164,7 +164,7 @@ export const movies = [
 	{
 		id: 7,
 		title: 'The Aviator',
-		poster: 'aviator.jpg',
+		poster: '/assets/aviator.jpg',
 		year: 2004,
 		rating: 7.5,
 		director: 'Martin Scorsese',
@@ -187,7 +187,7 @@ export const movies = [
 	{
 		id: 8,
 		title: '2001: A Space Odyssey',
-		poster: '2001.jpg',
+		poster: '/assets/2001.jpg',
 		year: 1968,
 		rating: 8.3,
 		director: 'Stanley Kubrick',
@@ -210,7 +210,7 @@ export const movies = [
 	{
 		id: 9,
 		title: 'Parasite',
-		poster: 'parasite.jpg',
+		poster: '/assets/parasite.jpg',
 		year: 2019,
 		rating: 8.6,
 		director: 'Bong Joon Ho',
@@ -233,7 +233,7 @@ export const movies = [
 	{
 		id: 10,
 		title: 'Gravity',
-		poster: 'gravity.jpg',
+		poster: '/assets/gravity.jpg',
 		year: 2013,
 		rating: 7.7,
 		director: 'Alfonso Cuarón',
