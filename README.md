@@ -172,4 +172,5 @@ const MovieList = ({ movies }) => {
         <Actor name={a.name} as={a.as} />
       ))}
 
+ 
 	

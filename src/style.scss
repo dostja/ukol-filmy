@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  width: auto;
+  height: 1em;
+  margin-right: 0.3em;
+}
+
+body {
+  background-color: rgb(185, 185, 187);
+  text-align: center;
+  width: auto;
+ 
+ 
+  
+}
+.box{
+
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  
+  
+}
+
+.container{
+  
+  margin: auto;
+  
+  max-width: 800px;
+  border-radius: 10px;
+  //background-color: #ccc;
+ 
+ // -moz-box-shadow: 0 0 3px #ccc;
+//-webkit-box-shadow: 0 0 20px #ccc;
+//box-shadow: 0 0 20px #ccc;
+}
+.props{
+  font-weight: bolder;
+  margin-top: 50px;
+  height: fit-content;
+  
+    display: inline-flex;
+    margin: auto;
+ 
+    border-radius: 10px;
+    width: 100%;
+ 
+    background-color: rgb(244, 240, 255);
+    box-shadow: grey 10px 10px 10px;
+   &__left{
+     flex: 1 0 0 ;
+     
+   }
+   &__right{
+    flex: 1 0 0;
+    display: block;
+    padding-left: 20px;
+    
+  }
+  &__year, &__rating,&__director,&__genre{
+    display: flex;
+    align-items: center;
+    
+    
+    
+  }
+  &__cathegory{
+    width: 50%;
+    text-align: left;
+    color: rgb(100, 19, 19);
+    font-weight: bold;
+  }
+&__prop{
+  text-align: left;
+  width: 50%;
+}
+&__name{
+  color: rgb(100, 19, 19);
+  font-weight: bold;
+}
+&__as{
+  color: grey;
+  font-size: 10px;
+  line-height: 20px;
+}
+&__title{
+  color: rgb(100, 19, 19);
+  font-weight: 300;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px;
+  border-bottom: grey solid 2px;
+}
+&__info{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}
+
+
+.logoTitle {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  color: rgb(41, 40, 40);
+  margin: 40px;
+  letter-spacing: 5px;
+font-family: 'DM Sans', sans-serif;
+ 
+}
+
+
+.img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.banner{
+
+
+  &__img{
+    max-width: 50%;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+}

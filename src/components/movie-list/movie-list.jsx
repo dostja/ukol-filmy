@@ -13,6 +13,7 @@ const MovieList = (props) => {
           rating={film.rating}
           director={film.director}
           genre={film.genre}
+          actors={film.cast}
         />
       ))}
     </>

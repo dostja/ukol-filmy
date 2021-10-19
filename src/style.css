@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .logo {
@@ -14,3 +14,124 @@ html {
   height: 1em;
   margin-right: 0.3em;
 }
+
+body {
+  background-color: #b9b9bb;
+  text-align: center;
+  width: auto;
+}
+
+.box {
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.props {
+  font-weight: bolder;
+  margin-top: 50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #f4f0ff;
+  -webkit-box-shadow: grey 10px 10px 10px;
+          box-shadow: grey 10px 10px 10px;
+}
+
+.props__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.props__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+  display: block;
+  padding-left: 20px;
+}
+
+.props__year, .props__rating, .props__director, .props__genre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.props__cathegory {
+  width: 50%;
+  text-align: left;
+  color: #641313;
+  font-weight: bold;
+}
+
+.props__prop {
+  text-align: left;
+  width: 50%;
+}
+
+.props__name {
+  color: #641313;
+  font-weight: bold;
+}
+
+.props__as {
+  color: grey;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.props__title {
+  color: #641313;
+  font-weight: 300;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px;
+  border-bottom: grey solid 2px;
+}
+
+.props__info {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logoTitle {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  color: #292828;
+  margin: 40px;
+  letter-spacing: 5px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.banner__img {
+  max-width: 50%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
