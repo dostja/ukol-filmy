@@ -7,15 +7,12 @@ import movies from "./movies";
 import MovieList from "./components/movie-list/movie-list";
 import Actor from "./components/Actor/actor";
 
-
-
 const App = () => (
   <>
     <Logo />
 
     <MovieList filmy={movies} />
-    <Actor/>
-  
+    <Actor />
   </>
 );
 
